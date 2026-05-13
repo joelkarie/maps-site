@@ -1,0 +1,2077 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_af95010368fcf1b0318e3fa6d0d478bd {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_af95010368fcf1b0318e3fa6d0d478bd" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_af95010368fcf1b0318e3fa6d0d478bd = L.map(
+                "map_af95010368fcf1b0318e3fa6d0d478bd",
+                {
+                    center: [38.0, -98.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2271478c30f5a6a0d00c8ad00d903217 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_2271478c30f5a6a0d00c8ad00d903217.addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var marker_c94cce36479c9852ded290f62be81e4c = L.marker(
+                [35.1402205, -90.055535],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_d35a4f7f407264726771d497d80174c8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2532aabd3d9ddcf88b34d4640277a554 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2d70f139c018329a91f6d054e7ff0b28 = $(`<div id="html_2d70f139c018329a91f6d054e7ff0b28" style="width: 100.0%; height: 100.0%;">Orpheum</div>`)[0];
+                popup_2532aabd3d9ddcf88b34d4640277a554.setContent(html_2d70f139c018329a91f6d054e7ff0b28);
+            
+        
+
+        marker_c94cce36479c9852ded290f62be81e4c.bindPopup(popup_2532aabd3d9ddcf88b34d4640277a554)
+        ;
+
+        
+    
+    
+                marker_c94cce36479c9852ded290f62be81e4c.setIcon(icon_d35a4f7f407264726771d497d80174c8);
+            
+    
+            var marker_be0ff78ca665e83be9e2c362a028eaf8 = L.marker(
+                [39.744659, -104.9980984],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_59385e0f536ed4ee915e4402127f5d45 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_91c4b659986881dde30979123eab496f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_97f2a098e67e23eb19b55b97a0f7a208 = $(`<div id="html_97f2a098e67e23eb19b55b97a0f7a208" style="width: 100.0%; height: 100.0%;">Denver Performing Arts Complex</div>`)[0];
+                popup_91c4b659986881dde30979123eab496f.setContent(html_97f2a098e67e23eb19b55b97a0f7a208);
+            
+        
+
+        marker_be0ff78ca665e83be9e2c362a028eaf8.bindPopup(popup_91c4b659986881dde30979123eab496f)
+        ;
+
+        
+    
+    
+                marker_be0ff78ca665e83be9e2c362a028eaf8.setIcon(icon_59385e0f536ed4ee915e4402127f5d45);
+            
+    
+            var marker_174f58708cbc4478ccd4348e7474ec90 = L.marker(
+                [36.164551, -86.7824167],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_5696c0745b24538dd520ca439efb96d8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_de9c13cc55a3577f69a0466eeab541b6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e2314682ff88864d2db805040aeccc92 = $(`<div id="html_e2314682ff88864d2db805040aeccc92" style="width: 100.0%; height: 100.0%;">Tennessee Performing Arts Center</div>`)[0];
+                popup_de9c13cc55a3577f69a0466eeab541b6.setContent(html_e2314682ff88864d2db805040aeccc92);
+            
+        
+
+        marker_174f58708cbc4478ccd4348e7474ec90.bindPopup(popup_de9c13cc55a3577f69a0466eeab541b6)
+        ;
+
+        
+    
+    
+                marker_174f58708cbc4478ccd4348e7474ec90.setIcon(icon_5696c0745b24538dd520ca439efb96d8);
+            
+    
+            var marker_204a85b4fcd442f12abebdf2f82faa0d = L.marker(
+                [33.773546, -84.3852876],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_d535b092cfdc5809a0d513c4c5516c4f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dfe0a78e59332d252f5c2fe459ff2428 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6560dd8c0239df1816306948d21ff695 = $(`<div id="html_6560dd8c0239df1816306948d21ff695" style="width: 100.0%; height: 100.0%;">The Fox</div>`)[0];
+                popup_dfe0a78e59332d252f5c2fe459ff2428.setContent(html_6560dd8c0239df1816306948d21ff695);
+            
+        
+
+        marker_204a85b4fcd442f12abebdf2f82faa0d.bindPopup(popup_dfe0a78e59332d252f5c2fe459ff2428)
+        ;
+
+        
+    
+    
+                marker_204a85b4fcd442f12abebdf2f82faa0d.setIcon(icon_d535b092cfdc5809a0d513c4c5516c4f);
+            
+    
+            var marker_9d2f9c7e619418ef7c45266ac44c01d7 = L.marker(
+                [37.3296604, -121.8925189],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_bcc72188035f90272753b3161543d916 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_044b4e8eead9a08813ff85978c1402e9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_24d39850cc5cc9ee0596807d8738cb5d = $(`<div id="html_24d39850cc5cc9ee0596807d8738cb5d" style="width: 100.0%; height: 100.0%;">San Jose Center for the Performing Arts</div>`)[0];
+                popup_044b4e8eead9a08813ff85978c1402e9.setContent(html_24d39850cc5cc9ee0596807d8738cb5d);
+            
+        
+
+        marker_9d2f9c7e619418ef7c45266ac44c01d7.bindPopup(popup_044b4e8eead9a08813ff85978c1402e9)
+        ;
+
+        
+    
+    
+                marker_9d2f9c7e619418ef7c45266ac44c01d7.setIcon(icon_bcc72188035f90272753b3161543d916);
+            
+    
+            var marker_b5b67a86f07ac2ca6253753f5eccf8b5 = L.marker(
+                [37.7791619, -122.4147347],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_5d6620a35a3522bad93d52233984c57c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fb7238dfe0a66eee43daba278b2f9f79 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1fee69758b45ac653faae83b01979c68 = $(`<div id="html_1fee69758b45ac653faae83b01979c68" style="width: 100.0%; height: 100.0%;">Orpheum Theatre</div>`)[0];
+                popup_fb7238dfe0a66eee43daba278b2f9f79.setContent(html_1fee69758b45ac653faae83b01979c68);
+            
+        
+
+        marker_b5b67a86f07ac2ca6253753f5eccf8b5.bindPopup(popup_fb7238dfe0a66eee43daba278b2f9f79)
+        ;
+
+        
+    
+    
+                marker_b5b67a86f07ac2ca6253753f5eccf8b5.setIcon(icon_5d6620a35a3522bad93d52233984c57c);
+            
+    
+            var marker_f8398309f566b6e15776b7f77b004788 = L.marker(
+                [32.7174029, -117.1629089],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_4a9cb1d65103ffd465e4473253bad912 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_95b78cd326168b1a845e7a1aaf5e0c32 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e411669bcecd54b0fd51fa6e44d0b262 = $(`<div id="html_e411669bcecd54b0fd51fa6e44d0b262" style="width: 100.0%; height: 100.0%;">San Diego Civic Center</div>`)[0];
+                popup_95b78cd326168b1a845e7a1aaf5e0c32.setContent(html_e411669bcecd54b0fd51fa6e44d0b262);
+            
+        
+
+        marker_f8398309f566b6e15776b7f77b004788.bindPopup(popup_95b78cd326168b1a845e7a1aaf5e0c32)
+        ;
+
+        
+    
+    
+                marker_f8398309f566b6e15776b7f77b004788.setIcon(icon_4a9cb1d65103ffd465e4473253bad912);
+            
+    
+            var marker_5eacc51759af0d0470b246251fdb9e2a = L.marker(
+                [28.5376574, -81.3766934],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_9f2c9623cfd8744d590de1016380887b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_052e025c35c29c63c9b287a7db91ab88 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_247577edd4a3e141d795690760dda065 = $(`<div id="html_247577edd4a3e141d795690760dda065" style="width: 100.0%; height: 100.0%;">Dr. Phillips Center for the Performing Arts</div>`)[0];
+                popup_052e025c35c29c63c9b287a7db91ab88.setContent(html_247577edd4a3e141d795690760dda065);
+            
+        
+
+        marker_5eacc51759af0d0470b246251fdb9e2a.bindPopup(popup_052e025c35c29c63c9b287a7db91ab88)
+        ;
+
+        
+    
+    
+                marker_5eacc51759af0d0470b246251fdb9e2a.setIcon(icon_9f2c9623cfd8744d590de1016380887b);
+            
+    
+            var marker_449225aff413ea9118e79d75f6818306 = L.marker(
+                [41.884074, -87.6331821],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_158351cc4c36b8243a63bef78b79a150 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5ab7795caea5af8adb1039470a6695d9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d4749eb6c97458fca3507c89b340ee58 = $(`<div id="html_d4749eb6c97458fca3507c89b340ee58" style="width: 100.0%; height: 100.0%;">Cadillac Palace Theatre</div>`)[0];
+                popup_5ab7795caea5af8adb1039470a6695d9.setContent(html_d4749eb6c97458fca3507c89b340ee58);
+            
+        
+
+        marker_449225aff413ea9118e79d75f6818306.bindPopup(popup_5ab7795caea5af8adb1039470a6695d9)
+        ;
+
+        
+    
+    
+                marker_449225aff413ea9118e79d75f6818306.setIcon(icon_158351cc4c36b8243a63bef78b79a150);
+            
+    
+            var marker_da7867698e52c651a57610e8ee732c7f = L.marker(
+                [32.7547535, -97.3297573],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_265aa224ce9b31457fc6abbe86f08f3f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1d9bd4f9e54645175c45b317e6cb6796 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_175174812a816f49503d0498d47abf54 = $(`<div id="html_175174812a816f49503d0498d47abf54" style="width: 100.0%; height: 100.0%;">Bass Performance Hall</div>`)[0];
+                popup_1d9bd4f9e54645175c45b317e6cb6796.setContent(html_175174812a816f49503d0498d47abf54);
+            
+        
+
+        marker_da7867698e52c651a57610e8ee732c7f.bindPopup(popup_1d9bd4f9e54645175c45b317e6cb6796)
+        ;
+
+        
+    
+    
+                marker_da7867698e52c651a57610e8ee732c7f.setIcon(icon_265aa224ce9b31457fc6abbe86f08f3f);
+            
+    
+            var marker_9d214d467d0b3e4da6147b76c1b7beb3 = L.marker(
+                [32.780432, -96.7657831],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_775ceeec0f94488bfc8ef7459c72269c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7293490ce02561a1ce25ad378c35a46e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9207a94926d5783b251f7436d3eff47b = $(`<div id="html_9207a94926d5783b251f7436d3eff47b" style="width: 100.0%; height: 100.0%;">Music Hall at Fair Park</div>`)[0];
+                popup_7293490ce02561a1ce25ad378c35a46e.setContent(html_9207a94926d5783b251f7436d3eff47b);
+            
+        
+
+        marker_9d214d467d0b3e4da6147b76c1b7beb3.bindPopup(popup_7293490ce02561a1ce25ad378c35a46e)
+        ;
+
+        
+    
+    
+                marker_9d214d467d0b3e4da6147b76c1b7beb3.setIcon(icon_775ceeec0f94488bfc8ef7459c72269c);
+            
+    
+            var marker_db6ee91ed0cbbb3332c6fcbe9b5a29de = L.marker(
+                [34.10172584, -118.3256362],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_885593ab8978c3549cfe9e54497bd980 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9874ed152d97694ee5af39a972acaca5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_26a5704e14f444155a0256b94c62c3f5 = $(`<div id="html_26a5704e14f444155a0256b94c62c3f5" style="width: 100.0%; height: 100.0%;">Hollywood Pantages Theatre</div>`)[0];
+                popup_9874ed152d97694ee5af39a972acaca5.setContent(html_26a5704e14f444155a0256b94c62c3f5);
+            
+        
+
+        marker_db6ee91ed0cbbb3332c6fcbe9b5a29de.bindPopup(popup_9874ed152d97694ee5af39a972acaca5)
+        ;
+
+        
+    
+    
+                marker_db6ee91ed0cbbb3332c6fcbe9b5a29de.setIcon(icon_885593ab8978c3549cfe9e54497bd980);
+            
+    
+            var marker_51a0bd6e68b883905ee2edad5a5aabee = L.marker(
+                [29.7616583, -95.369706],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_6bd8b5afb88603a8d0f63bd560ed9b7e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a44cbb21749c790e8ed9d8d8becde3fe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5d742ba63c9c4680ee18f2c0e1b71bc0 = $(`<div id="html_5d742ba63c9c4680ee18f2c0e1b71bc0" style="width: 100.0%; height: 100.0%;">The Hobby Center</div>`)[0];
+                popup_a44cbb21749c790e8ed9d8d8becde3fe.setContent(html_5d742ba63c9c4680ee18f2c0e1b71bc0);
+            
+        
+
+        marker_51a0bd6e68b883905ee2edad5a5aabee.bindPopup(popup_a44cbb21749c790e8ed9d8d8becde3fe)
+        ;
+
+        
+    
+    
+                marker_51a0bd6e68b883905ee2edad5a5aabee.setIcon(icon_6bd8b5afb88603a8d0f63bd560ed9b7e);
+            
+    
+            var marker_6043edffed30616685e899a8176a003b = L.marker(
+                [41.58733229, -93.62042626],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_6ad22d81a3af7b721d287294ee3a81a2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5df85d16a58d14acd496752d4bb0d3cc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f58e78a5fa7149c4a7cec311203146c0 = $(`<div id="html_f58e78a5fa7149c4a7cec311203146c0" style="width: 100.0%; height: 100.0%;">Des Moines Civic Center</div>`)[0];
+                popup_5df85d16a58d14acd496752d4bb0d3cc.setContent(html_f58e78a5fa7149c4a7cec311203146c0);
+            
+        
+
+        marker_6043edffed30616685e899a8176a003b.bindPopup(popup_5df85d16a58d14acd496752d4bb0d3cc)
+        ;
+
+        
+    
+    
+                marker_6043edffed30616685e899a8176a003b.setIcon(icon_6ad22d81a3af7b721d287294ee3a81a2);
+            
+    
+            var marker_9d84b153e94ea88413069457e9aa4fbb = L.marker(
+                [41.2562232, -95.9363071],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_f7befe03b6690cc76427704feed468ae = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f2ed0f78e1fb1dba922b5111b5653dd9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_704322221b6cc00339a6974fc1f4c7ba = $(`<div id="html_704322221b6cc00339a6974fc1f4c7ba" style="width: 100.0%; height: 100.0%;">Orpheum Theater</div>`)[0];
+                popup_f2ed0f78e1fb1dba922b5111b5653dd9.setContent(html_704322221b6cc00339a6974fc1f4c7ba);
+            
+        
+
+        marker_9d84b153e94ea88413069457e9aa4fbb.bindPopup(popup_f2ed0f78e1fb1dba922b5111b5653dd9)
+        ;
+
+        
+    
+    
+                marker_9d84b153e94ea88413069457e9aa4fbb.setIcon(icon_f7befe03b6690cc76427704feed468ae);
+            
+    
+            var marker_394fbd28d5f5ac75a0f7674ab37c7595 = L.marker(
+                [41.59265728, -83.65182366],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_647c6d36a8cb47c0ce0f7dc257eb2439 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_af89e58102e44db9f4da06b141102907 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a944f15ae5aa5792ad0c085c701b69d8 = $(`<div id="html_a944f15ae5aa5792ad0c085c701b69d8" style="width: 100.0%; height: 100.0%;">The Stranahan</div>`)[0];
+                popup_af89e58102e44db9f4da06b141102907.setContent(html_a944f15ae5aa5792ad0c085c701b69d8);
+            
+        
+
+        marker_394fbd28d5f5ac75a0f7674ab37c7595.bindPopup(popup_af89e58102e44db9f4da06b141102907)
+        ;
+
+        
+    
+    
+                marker_394fbd28d5f5ac75a0f7674ab37c7595.setIcon(icon_647c6d36a8cb47c0ce0f7dc257eb2439);
+            
+    
+            var marker_aff6903d451584b0f766dae010f60c7d = L.marker(
+                [43.0741343, -89.3882773],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_afaf327b21a5de209544ea97730f0792 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2276280b665ecd0c6d07a3d0331d1e71 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_df9413ca060c8a258ad11912ad77d67e = $(`<div id="html_df9413ca060c8a258ad11912ad77d67e" style="width: 100.0%; height: 100.0%;">The Overture Center</div>`)[0];
+                popup_2276280b665ecd0c6d07a3d0331d1e71.setContent(html_df9413ca060c8a258ad11912ad77d67e);
+            
+        
+
+        marker_aff6903d451584b0f766dae010f60c7d.bindPopup(popup_2276280b665ecd0c6d07a3d0331d1e71)
+        ;
+
+        
+    
+    
+                marker_aff6903d451584b0f766dae010f60c7d.setIcon(icon_afaf327b21a5de209544ea97730f0792);
+            
+    
+            var marker_af1de9018109820ceee55ce0d2a62f9a = L.marker(
+                [39.09855702, -94.58666718],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_761fd4b48da81cb119aaf307feb2fa9f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_73a56a48709e7b616e79c2346620fb0c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_737a5c69bf7f4621f28522b0a7f49b29 = $(`<div id="html_737a5c69bf7f4621f28522b0a7f49b29" style="width: 100.0%; height: 100.0%;">Kansas City Music Hall</div>`)[0];
+                popup_73a56a48709e7b616e79c2346620fb0c.setContent(html_737a5c69bf7f4621f28522b0a7f49b29);
+            
+        
+
+        marker_af1de9018109820ceee55ce0d2a62f9a.bindPopup(popup_73a56a48709e7b616e79c2346620fb0c)
+        ;
+
+        
+    
+    
+                marker_af1de9018109820ceee55ce0d2a62f9a.setIcon(icon_761fd4b48da81cb119aaf307feb2fa9f);
+            
+    
+            var marker_6b88d17463da67521d6303ab8daa5bd8 = L.marker(
+                [36.154464, -95.9895089],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_fbaa88cf9696926c8a7c1f4da624c77d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6aeafd7166db5c24e04a32e80b66023a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f086fda2f829f0421b45354a5023dc76 = $(`<div id="html_f086fda2f829f0421b45354a5023dc76" style="width: 100.0%; height: 100.0%;">Tulsa Performing Arts Center</div>`)[0];
+                popup_6aeafd7166db5c24e04a32e80b66023a.setContent(html_f086fda2f829f0421b45354a5023dc76);
+            
+        
+
+        marker_6b88d17463da67521d6303ab8daa5bd8.bindPopup(popup_6aeafd7166db5c24e04a32e80b66023a)
+        ;
+
+        
+    
+    
+                marker_6b88d17463da67521d6303ab8daa5bd8.setIcon(icon_fbaa88cf9696926c8a7c1f4da624c77d);
+            
+    
+            var marker_48c3057dcd3192aab618015530dee418 = L.marker(
+                [39.9598912, -82.9989419],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_281a2bf41dbc43c12d01626427e77566 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fa3a9f2972afa48198aa8e87ffe8f0eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eb2e0c54f79b6a0b15d3b008555efed6 = $(`<div id="html_eb2e0c54f79b6a0b15d3b008555efed6" style="width: 100.0%; height: 100.0%;">Ohio Theatre</div>`)[0];
+                popup_fa3a9f2972afa48198aa8e87ffe8f0eb.setContent(html_eb2e0c54f79b6a0b15d3b008555efed6);
+            
+        
+
+        marker_48c3057dcd3192aab618015530dee418.bindPopup(popup_fa3a9f2972afa48198aa8e87ffe8f0eb)
+        ;
+
+        
+    
+    
+                marker_48c3057dcd3192aab618015530dee418.setIcon(icon_281a2bf41dbc43c12d01626427e77566);
+            
+    
+            var marker_d590984fe09b0a7f0c00664ab3fcb379 = L.marker(
+                [38.8957359, -77.0557586],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_85955d8ef91df3b4f12a6b9112e88ab8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0c7710a960f6feb8068f30c1fa4271a4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b33573f88018dab753fb08bd8fdd9bca = $(`<div id="html_b33573f88018dab753fb08bd8fdd9bca" style="width: 100.0%; height: 100.0%;">The Kennedy Center</div>`)[0];
+                popup_0c7710a960f6feb8068f30c1fa4271a4.setContent(html_b33573f88018dab753fb08bd8fdd9bca);
+            
+        
+
+        marker_d590984fe09b0a7f0c00664ab3fcb379.bindPopup(popup_0c7710a960f6feb8068f30c1fa4271a4)
+        ;
+
+        
+    
+    
+                marker_d590984fe09b0a7f0c00664ab3fcb379.setIcon(icon_85955d8ef91df3b4f12a6b9112e88ab8);
+            
+    
+            var marker_13d97db1112383bb8585fdac5476a76b = L.marker(
+                [42.8119769, -73.9420065],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_5a368a4d42b18817ab0eb4d445743283 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ff7025e5678416aad7b9436071af4709 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_88ab885847dc4559b5d1740cee55a8ef = $(`<div id="html_88ab885847dc4559b5d1740cee55a8ef" style="width: 100.0%; height: 100.0%;">Proctors</div>`)[0];
+                popup_ff7025e5678416aad7b9436071af4709.setContent(html_88ab885847dc4559b5d1740cee55a8ef);
+            
+        
+
+        marker_13d97db1112383bb8585fdac5476a76b.bindPopup(popup_ff7025e5678416aad7b9436071af4709)
+        ;
+
+        
+    
+    
+                marker_13d97db1112383bb8585fdac5476a76b.setIcon(icon_5a368a4d42b18817ab0eb4d445743283);
+            
+    
+            var marker_c625554401218ce620f8f5627973bea6 = L.marker(
+                [41.76251497, -72.68086798],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_173ea6a26ed78c8a4e1c940f26595706 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3efdcdc03757b27bce306377c55273c9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_01ae951f764de2842682b0e1a766ba97 = $(`<div id="html_01ae951f764de2842682b0e1a766ba97" style="width: 100.0%; height: 100.0%;">The Bushnell Performing Arts Center</div>`)[0];
+                popup_3efdcdc03757b27bce306377c55273c9.setContent(html_01ae951f764de2842682b0e1a766ba97);
+            
+        
+
+        marker_c625554401218ce620f8f5627973bea6.bindPopup(popup_3efdcdc03757b27bce306377c55273c9)
+        ;
+
+        
+    
+    
+                marker_c625554401218ce620f8f5627973bea6.setIcon(icon_173ea6a26ed78c8a4e1c940f26595706);
+            
+    
+            var marker_c1f8ec31a0c2556fbde212c5104ccd7b = L.marker(
+                [39.9480186, -75.165197],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_3e825e4af400a6cffbf846c23061498d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0c7ca4d8c8ff741408ccd7af70ed69e1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_43328e20680a9c643736fba5cee7f620 = $(`<div id="html_43328e20680a9c643736fba5cee7f620" style="width: 100.0%; height: 100.0%;">Academy of Music</div>`)[0];
+                popup_0c7ca4d8c8ff741408ccd7af70ed69e1.setContent(html_43328e20680a9c643736fba5cee7f620);
+            
+        
+
+        marker_c1f8ec31a0c2556fbde212c5104ccd7b.bindPopup(popup_0c7ca4d8c8ff741408ccd7af70ed69e1)
+        ;
+
+        
+    
+    
+                marker_c1f8ec31a0c2556fbde212c5104ccd7b.setIcon(icon_3e825e4af400a6cffbf846c23061498d);
+            
+    
+            var marker_4f1b06b55e105f4fa960feece8eb180e = L.marker(
+                [25.64911156, -100.3356246],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_fde5e3b73c81539e842b6978a9cff2d7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8bb8f9051fc527e12554dd92649341cb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0ae4e5bb37b599e8d7a37df8b12fd89c = $(`<div id="html_0ae4e5bb37b599e8d7a37df8b12fd89c" style="width: 100.0%; height: 100.0%;">Showcenter Complex</div>`)[0];
+                popup_8bb8f9051fc527e12554dd92649341cb.setContent(html_0ae4e5bb37b599e8d7a37df8b12fd89c);
+            
+        
+
+        marker_4f1b06b55e105f4fa960feece8eb180e.bindPopup(popup_8bb8f9051fc527e12554dd92649341cb)
+        ;
+
+        
+    
+    
+                marker_4f1b06b55e105f4fa960feece8eb180e.setIcon(icon_fde5e3b73c81539e842b6978a9cff2d7);
+            
+    
+            var marker_e045b0250a3ff7dd59432a95e7fcdf80 = L.marker(
+                [33.5908806, -101.8495622],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_953459c249a7944f29e87b60b0c7ecb3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_11414d8b546423231f9c1d19a87284d6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_16afc71c2bc7f1b6cfed8f9bc7b74c2f = $(`<div id="html_16afc71c2bc7f1b6cfed8f9bc7b74c2f" style="width: 100.0%; height: 100.0%;">Buddy Holly Hall</div>`)[0];
+                popup_11414d8b546423231f9c1d19a87284d6.setContent(html_16afc71c2bc7f1b6cfed8f9bc7b74c2f);
+            
+        
+
+        marker_e045b0250a3ff7dd59432a95e7fcdf80.bindPopup(popup_11414d8b546423231f9c1d19a87284d6)
+        ;
+
+        
+    
+    
+                marker_e045b0250a3ff7dd59432a95e7fcdf80.setIcon(icon_953459c249a7944f29e87b60b0c7ecb3);
+            
+    
+            var marker_9bd976cc40eca9f7b0c5b9f90fe08453 = L.marker(
+                [35.0820888, -106.620014],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_e481446635f9952de4b656d1fe72430e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fe67844aa9f37b73db20760f7155ff6e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f5ab5baa174b8d8d0ae59f3ce7238343 = $(`<div id="html_f5ab5baa174b8d8d0ae59f3ce7238343" style="width: 100.0%; height: 100.0%;">Popejoy Hall</div>`)[0];
+                popup_fe67844aa9f37b73db20760f7155ff6e.setContent(html_f5ab5baa174b8d8d0ae59f3ce7238343);
+            
+        
+
+        marker_9bd976cc40eca9f7b0c5b9f90fe08453.bindPopup(popup_fe67844aa9f37b73db20760f7155ff6e)
+        ;
+
+        
+    
+    
+                marker_9bd976cc40eca9f7b0c5b9f90fe08453.setIcon(icon_e481446635f9952de4b656d1fe72430e);
+            
+    
+            var marker_fe6cc0c070f05511ef084a2a9741b265 = L.marker(
+                [36.1687808, -115.1518185],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_7b844071cf4e0898ebba529558d6f988 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_706e89036bbacd0e610c4aa657bb9692 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_da8389a73acc894ad3a3bf4820918a7f = $(`<div id="html_da8389a73acc894ad3a3bf4820918a7f" style="width: 100.0%; height: 100.0%;">The Smith Center</div>`)[0];
+                popup_706e89036bbacd0e610c4aa657bb9692.setContent(html_da8389a73acc894ad3a3bf4820918a7f);
+            
+        
+
+        marker_fe6cc0c070f05511ef084a2a9741b265.bindPopup(popup_706e89036bbacd0e610c4aa657bb9692)
+        ;
+
+        
+    
+    
+                marker_fe6cc0c070f05511ef084a2a9741b265.setIcon(icon_7b844071cf4e0898ebba529558d6f988);
+            
+    
+            var marker_3f7050ffa1a9d4b8960587885f04914f = L.marker(
+                [39.52427202, -119.7798143],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_02fadf6be2db35bee05e9179927839c2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7744790c4001dc657c4c76071b3a379c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_57bd69ab214fe5eb1c38a925bcfd7ca2 = $(`<div id="html_57bd69ab214fe5eb1c38a925bcfd7ca2" style="width: 100.0%; height: 100.0%;">Grand Theatre</div>`)[0];
+                popup_7744790c4001dc657c4c76071b3a379c.setContent(html_57bd69ab214fe5eb1c38a925bcfd7ca2);
+            
+        
+
+        marker_3f7050ffa1a9d4b8960587885f04914f.bindPopup(popup_7744790c4001dc657c4c76071b3a379c)
+        ;
+
+        
+    
+    
+                marker_3f7050ffa1a9d4b8960587885f04914f.setIcon(icon_02fadf6be2db35bee05e9179927839c2);
+            
+    
+            var marker_11460e4fc119dd6177d18f67354a96af = L.marker(
+                [38.5771834, -121.4894149],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_bed0c2aa8de210cfa40c8c825ac4f0f2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a2c485a12e567ec6582c5bf440189cb0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9b5a59607a2e14804e3a042576c0b47a = $(`<div id="html_9b5a59607a2e14804e3a042576c0b47a" style="width: 100.0%; height: 100.0%;">SAFE Credit Union Performing Arts Center</div>`)[0];
+                popup_a2c485a12e567ec6582c5bf440189cb0.setContent(html_9b5a59607a2e14804e3a042576c0b47a);
+            
+        
+
+        marker_11460e4fc119dd6177d18f67354a96af.bindPopup(popup_a2c485a12e567ec6582c5bf440189cb0)
+        ;
+
+        
+    
+    
+                marker_11460e4fc119dd6177d18f67354a96af.setIcon(icon_bed0c2aa8de210cfa40c8c825ac4f0f2);
+            
+    
+            var marker_ecb9231f85f5a37e2ff3e693ecd7a4ec = L.marker(
+                [43.6068455, -116.2076237],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_dbc3fc7d7db49121618ef71661557381 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_72896c700936973537523b9d04869f8d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eea9b4a2cb4729668188313aea5e31a5 = $(`<div id="html_eea9b4a2cb4729668188313aea5e31a5" style="width: 100.0%; height: 100.0%;">The Morrison Center</div>`)[0];
+                popup_72896c700936973537523b9d04869f8d.setContent(html_eea9b4a2cb4729668188313aea5e31a5);
+            
+        
+
+        marker_ecb9231f85f5a37e2ff3e693ecd7a4ec.bindPopup(popup_72896c700936973537523b9d04869f8d)
+        ;
+
+        
+    
+    
+                marker_ecb9231f85f5a37e2ff3e693ecd7a4ec.setIcon(icon_dbc3fc7d7db49121618ef71661557381);
+            
+    
+            var marker_4ba8b02d780d90e70c691428c4ad1858 = L.marker(
+                [47.6131336, -122.3335879],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_e28602baf522e97168368163bcbe5948 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d0ea7b1faea03847839539794c5d33fe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7017af90a252a3f22b4b664deaeab5c3 = $(`<div id="html_7017af90a252a3f22b4b664deaeab5c3" style="width: 100.0%; height: 100.0%;">The Paramount</div>`)[0];
+                popup_d0ea7b1faea03847839539794c5d33fe.setContent(html_7017af90a252a3f22b4b664deaeab5c3);
+            
+        
+
+        marker_4ba8b02d780d90e70c691428c4ad1858.bindPopup(popup_d0ea7b1faea03847839539794c5d33fe)
+        ;
+
+        
+    
+    
+                marker_4ba8b02d780d90e70c691428c4ad1858.setIcon(icon_e28602baf522e97168368163bcbe5948);
+            
+    
+            var marker_38c73689f73bf5618f3af36257a01857 = L.marker(
+                [45.5124139, -122.6781499],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_057f496ac545562c07803fd24b5e1813 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aa62b815b9b4f0b8c33e314614da75f1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9cfadcc458c94e0b4750338427f53dd3 = $(`<div id="html_9cfadcc458c94e0b4750338427f53dd3" style="width: 100.0%; height: 100.0%;">Keller Auditorium</div>`)[0];
+                popup_aa62b815b9b4f0b8c33e314614da75f1.setContent(html_9cfadcc458c94e0b4750338427f53dd3);
+            
+        
+
+        marker_38c73689f73bf5618f3af36257a01857.bindPopup(popup_aa62b815b9b4f0b8c33e314614da75f1)
+        ;
+
+        
+    
+    
+                marker_38c73689f73bf5618f3af36257a01857.setIcon(icon_057f496ac545562c07803fd24b5e1813);
+            
+    
+            var marker_999dc4dc296899be31d2f0569ec281b3 = L.marker(
+                [33.6923788, -117.8819502],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_2560adf2f5b4c56be76b03ef3739396b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ed54c9050fa8bf3629c8096d4bd81c23 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d8bfa3f933f5714a54d6dcfd9c66aacc = $(`<div id="html_d8bfa3f933f5714a54d6dcfd9c66aacc" style="width: 100.0%; height: 100.0%;">Segerstrom Center for the Arts</div>`)[0];
+                popup_ed54c9050fa8bf3629c8096d4bd81c23.setContent(html_d8bfa3f933f5714a54d6dcfd9c66aacc);
+            
+        
+
+        marker_999dc4dc296899be31d2f0569ec281b3.bindPopup(popup_ed54c9050fa8bf3629c8096d4bd81c23)
+        ;
+
+        
+    
+    
+                marker_999dc4dc296899be31d2f0569ec281b3.setIcon(icon_2560adf2f5b4c56be76b03ef3739396b);
+            
+    
+            var marker_48faec2d0126405c7af133b4d9bee21b = L.marker(
+                [44.97626839, -93.27744898],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_0ebee44d258399508269038f75a16ea4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1932024d73949b269e4a1254b6df7bd3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0eff52830ad52f12e9cd196fbd9b6494 = $(`<div id="html_0eff52830ad52f12e9cd196fbd9b6494" style="width: 100.0%; height: 100.0%;">Orpheum Theatre</div>`)[0];
+                popup_1932024d73949b269e4a1254b6df7bd3.setContent(html_0eff52830ad52f12e9cd196fbd9b6494);
+            
+        
+
+        marker_48faec2d0126405c7af133b4d9bee21b.bindPopup(popup_1932024d73949b269e4a1254b6df7bd3)
+        ;
+
+        
+    
+    
+                marker_48faec2d0126405c7af133b4d9bee21b.setIcon(icon_0ebee44d258399508269038f75a16ea4);
+            
+    
+            var marker_9bf12f31c66a1fadf67c64eb64e5df97 = L.marker(
+                [39.761211, -84.1932823],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_2a482e680bffbb369ef80780d008c1de = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e72d7d1708d67ffa00924caf16758029 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6af9f2889b65d8bc14f8cc9e4a615db1 = $(`<div id="html_6af9f2889b65d8bc14f8cc9e4a615db1" style="width: 100.0%; height: 100.0%;">Benjamin & Marian Schuster Performing Arts Center</div>`)[0];
+                popup_e72d7d1708d67ffa00924caf16758029.setContent(html_6af9f2889b65d8bc14f8cc9e4a615db1);
+            
+        
+
+        marker_9bf12f31c66a1fadf67c64eb64e5df97.bindPopup(popup_e72d7d1708d67ffa00924caf16758029)
+        ;
+
+        
+    
+    
+                marker_9bf12f31c66a1fadf67c64eb64e5df97.setIcon(icon_2a482e680bffbb369ef80780d008c1de);
+            
+    
+            var marker_e2e0552446266da1b4e5a77fde4492b7 = L.marker(
+                [35.9932676, -78.9022327],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_61f387dd43fa34812100e0faaa0eb579 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0cdc4660e35e58ea891e2697667fc179 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_597c4424f79749a5a7cc7ee2d2a99106 = $(`<div id="html_597c4424f79749a5a7cc7ee2d2a99106" style="width: 100.0%; height: 100.0%;">Durham Performing Arts Center</div>`)[0];
+                popup_0cdc4660e35e58ea891e2697667fc179.setContent(html_597c4424f79749a5a7cc7ee2d2a99106);
+            
+        
+
+        marker_e2e0552446266da1b4e5a77fde4492b7.bindPopup(popup_0cdc4660e35e58ea891e2697667fc179)
+        ;
+
+        
+    
+    
+                marker_e2e0552446266da1b4e5a77fde4492b7.setIcon(icon_61f387dd43fa34812100e0faaa0eb579);
+            
+    
+            var marker_c513a1c108e93a528ab36262255a28e7 = L.marker(
+                [35.22726321, -80.84198907],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_297f949515a4c165cfb2ef7e51ef5b24 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dcebc62e981e4a79040c50cdaa2dd928 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e23162093b9949aee0cb0370d61d2923 = $(`<div id="html_e23162093b9949aee0cb0370d61d2923" style="width: 100.0%; height: 100.0%;">Belk Theater at Blumenthal Performing Arts Cente</div>`)[0];
+                popup_dcebc62e981e4a79040c50cdaa2dd928.setContent(html_e23162093b9949aee0cb0370d61d2923);
+            
+        
+
+        marker_c513a1c108e93a528ab36262255a28e7.bindPopup(popup_dcebc62e981e4a79040c50cdaa2dd928)
+        ;
+
+        
+    
+    
+                marker_c513a1c108e93a528ab36262255a28e7.setIcon(icon_297f949515a4c165cfb2ef7e51ef5b24);
+            
+    
+            var marker_e9d3dbd16c5a5c70254f009176b1c36f = L.marker(
+                [34.8473694, -82.401476],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_c8ce573a624ee6c388388d39d6d548b5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_047db44ecdbc5dcebf9ad301a2073989 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2051dd92334aa8ffe46b357d6632eb9d = $(`<div id="html_2051dd92334aa8ffe46b357d6632eb9d" style="width: 100.0%; height: 100.0%;">The Peace Center</div>`)[0];
+                popup_047db44ecdbc5dcebf9ad301a2073989.setContent(html_2051dd92334aa8ffe46b357d6632eb9d);
+            
+        
+
+        marker_e9d3dbd16c5a5c70254f009176b1c36f.bindPopup(popup_047db44ecdbc5dcebf9ad301a2073989)
+        ;
+
+        
+    
+    
+                marker_e9d3dbd16c5a5c70254f009176b1c36f.setIcon(icon_c8ce573a624ee6c388388d39d6d548b5);
+            
+    
+            var marker_01effa7993b3258bac684bc2687175b9 = L.marker(
+                [45.4231956, -75.6933452],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_a1e6fadc4e1ed661d9e2d921fd20821f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1b7e72ce1c1930dc613e7fb7cad2c08d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_35e0a004be22b7c6487e70f4b360e0cc = $(`<div id="html_35e0a004be22b7c6487e70f4b360e0cc" style="width: 100.0%; height: 100.0%;">National Arts Centre</div>`)[0];
+                popup_1b7e72ce1c1930dc613e7fb7cad2c08d.setContent(html_35e0a004be22b7c6487e70f4b360e0cc);
+            
+        
+
+        marker_01effa7993b3258bac684bc2687175b9.bindPopup(popup_1b7e72ce1c1930dc613e7fb7cad2c08d)
+        ;
+
+        
+    
+    
+                marker_01effa7993b3258bac684bc2687175b9.setIcon(icon_a1e6fadc4e1ed661d9e2d921fd20821f);
+            
+    
+            var marker_303e077fa3eb8a5832f7035eeecc701f = L.marker(
+                [43.0473075, -76.152614],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_602b69e044d64441deaa007b34533845 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_26935b53c493a4a4e3c59089509a5965 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5a8bf24a8d6ccf34a72791483b8f702e = $(`<div id="html_5a8bf24a8d6ccf34a72791483b8f702e" style="width: 100.0%; height: 100.0%;">Landmark Theatre</div>`)[0];
+                popup_26935b53c493a4a4e3c59089509a5965.setContent(html_5a8bf24a8d6ccf34a72791483b8f702e);
+            
+        
+
+        marker_303e077fa3eb8a5832f7035eeecc701f.bindPopup(popup_26935b53c493a4a4e3c59089509a5965)
+        ;
+
+        
+    
+    
+                marker_303e077fa3eb8a5832f7035eeecc701f.setIcon(icon_602b69e044d64441deaa007b34533845);
+            
+    
+            var marker_f132e38798af560713de431a1bb1bcd7 = L.marker(
+                [42.8918573, -78.8731925],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_a8cc0225943f8d233c7ffb8500a26af4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_43537baf30feb899e0c2d698fe8066f8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cff15d62aae6f9f3ce88a4877f556f4b = $(`<div id="html_cff15d62aae6f9f3ce88a4877f556f4b" style="width: 100.0%; height: 100.0%;">Shea's Buffalo Theater</div>`)[0];
+                popup_43537baf30feb899e0c2d698fe8066f8.setContent(html_cff15d62aae6f9f3ce88a4877f556f4b);
+            
+        
+
+        marker_f132e38798af560713de431a1bb1bcd7.bindPopup(popup_43537baf30feb899e0c2d698fe8066f8)
+        ;
+
+        
+    
+    
+                marker_f132e38798af560713de431a1bb1bcd7.setIcon(icon_a8cc0225943f8d233c7ffb8500a26af4);
+            
+    
+            var marker_26fe3c50dc9131364f3b43b686fe8523 = L.marker(
+                [44.2623724, -88.4115241],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_e634a7cea989155f2f8ad32b7eea19a9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d409891b3dd12f3ff8046707bb7829c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eed45fa5e1ffa7a514211bef4bc93e99 = $(`<div id="html_eed45fa5e1ffa7a514211bef4bc93e99" style="width: 100.0%; height: 100.0%;">Fox Cities Performing Arts Center</div>`)[0];
+                popup_d409891b3dd12f3ff8046707bb7829c8.setContent(html_eed45fa5e1ffa7a514211bef4bc93e99);
+            
+        
+
+        marker_26fe3c50dc9131364f3b43b686fe8523.bindPopup(popup_d409891b3dd12f3ff8046707bb7829c8)
+        ;
+
+        
+    
+    
+                marker_26fe3c50dc9131364f3b43b686fe8523.setIcon(icon_e634a7cea989155f2f8ad32b7eea19a9);
+            
+    
+            var marker_6ef5f54544079ed2c69a8c3e59f2479d = L.marker(
+                [42.2793033, -85.6156542],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_c3adb2187b9de195d5e211fd0987030f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c870a718960c103b018546cdb59de052 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6a13f03e94e439e8f2b17f6fe48e601b = $(`<div id="html_6a13f03e94e439e8f2b17f6fe48e601b" style="width: 100.0%; height: 100.0%;">Miller Auditorium</div>`)[0];
+                popup_c870a718960c103b018546cdb59de052.setContent(html_6a13f03e94e439e8f2b17f6fe48e601b);
+            
+        
+
+        marker_6ef5f54544079ed2c69a8c3e59f2479d.bindPopup(popup_c870a718960c103b018546cdb59de052)
+        ;
+
+        
+    
+    
+                marker_6ef5f54544079ed2c69a8c3e59f2479d.setIcon(icon_c3adb2187b9de195d5e211fd0987030f);
+            
+    
+            var marker_c3577b2ed3626ab7c1fa4f26e5f9f777 = L.marker(
+                [42.9680308, -85.67300253],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_31933dbf2e1913ea3fbdefe0cf128485 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4d26996201de56db3ae3b7d6c38096fe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_795efeb031710fc4e8671f2eb77a8b12 = $(`<div id="html_795efeb031710fc4e8671f2eb77a8b12" style="width: 100.0%; height: 100.0%;">DeVos Performance Hall</div>`)[0];
+                popup_4d26996201de56db3ae3b7d6c38096fe.setContent(html_795efeb031710fc4e8671f2eb77a8b12);
+            
+        
+
+        marker_c3577b2ed3626ab7c1fa4f26e5f9f777.bindPopup(popup_4d26996201de56db3ae3b7d6c38096fe)
+        ;
+
+        
+    
+    
+                marker_c3577b2ed3626ab7c1fa4f26e5f9f777.setIcon(icon_31933dbf2e1913ea3fbdefe0cf128485);
+            
+    
+            var marker_4c39ad9c144145fad87aa2340b0ac55c = L.marker(
+                [39.2897651, -76.6214105],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_5a2053d680e7f93d6296904e09cbf12b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4b8981869312c6414d65e6e7e464accf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1b379cbd11956dc5789a7a12b5ac374d = $(`<div id="html_1b379cbd11956dc5789a7a12b5ac374d" style="width: 100.0%; height: 100.0%;">The Hippodrome</div>`)[0];
+                popup_4b8981869312c6414d65e6e7e464accf.setContent(html_1b379cbd11956dc5789a7a12b5ac374d);
+            
+        
+
+        marker_4c39ad9c144145fad87aa2340b0ac55c.bindPopup(popup_4b8981869312c6414d65e6e7e464accf)
+        ;
+
+        
+    
+    
+                marker_4c39ad9c144145fad87aa2340b0ac55c.setIcon(icon_5a2053d680e7f93d6296904e09cbf12b);
+            
+    
+            var marker_4c20339f2f003fb25be6800833516f5f = L.marker(
+                [26.11977014, -80.14953546],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_23a9df2a03b0a7aec6c8684b025e3809 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_675adab8dbe8c94aacbc40deb390cb33 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3c74608463c439379b4bc75df0a493ba = $(`<div id="html_3c74608463c439379b4bc75df0a493ba" style="width: 100.0%; height: 100.0%;">The Broward Center</div>`)[0];
+                popup_675adab8dbe8c94aacbc40deb390cb33.setContent(html_3c74608463c439379b4bc75df0a493ba);
+            
+        
+
+        marker_4c20339f2f003fb25be6800833516f5f.bindPopup(popup_675adab8dbe8c94aacbc40deb390cb33)
+        ;
+
+        
+    
+    
+                marker_4c20339f2f003fb25be6800833516f5f.setIcon(icon_23a9df2a03b0a7aec6c8684b025e3809);
+            
+    
+            var marker_50cd46b5931e46eda974ca58a1776534 = L.marker(
+                [53.521789, -113.5287755],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_dd5ddb81a843542c602ad5432eb33d65 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_39516402d5e3a5588c8f6981e8106b95 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3011840a0e5df0a0e7f5fcd4a97cfd82 = $(`<div id="html_3011840a0e5df0a0e7f5fcd4a97cfd82" style="width: 100.0%; height: 100.0%;">Northern Alberta Jubilee Auditorium</div>`)[0];
+                popup_39516402d5e3a5588c8f6981e8106b95.setContent(html_3011840a0e5df0a0e7f5fcd4a97cfd82);
+            
+        
+
+        marker_50cd46b5931e46eda974ca58a1776534.bindPopup(popup_39516402d5e3a5588c8f6981e8106b95)
+        ;
+
+        
+    
+    
+                marker_50cd46b5931e46eda974ca58a1776534.setIcon(icon_dd5ddb81a843542c602ad5432eb33d65);
+            
+    
+            var marker_70471867de1f7fea5f73fc8d8ffa81f5 = L.marker(
+                [51.06254, -114.0925189],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_9a5039bdc2205e01c9ad753cee1f297d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_409b889d5a7b221bc0f9c870957bc7c6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b847a53b17533b158d2eb940f4685ec0 = $(`<div id="html_b847a53b17533b158d2eb940f4685ec0" style="width: 100.0%; height: 100.0%;">Southern Alberta Jubilee Auditorium</div>`)[0];
+                popup_409b889d5a7b221bc0f9c870957bc7c6.setContent(html_b847a53b17533b158d2eb940f4685ec0);
+            
+        
+
+        marker_70471867de1f7fea5f73fc8d8ffa81f5.bindPopup(popup_409b889d5a7b221bc0f9c870957bc7c6)
+        ;
+
+        
+    
+    
+                marker_70471867de1f7fea5f73fc8d8ffa81f5.setIcon(icon_9a5039bdc2205e01c9ad753cee1f297d);
+            
+    
+            var marker_5bb48474958c2e6a0694ac3d54b518ac = L.marker(
+                [49.2803131, -123.113161],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_aa4446e8cad7c3c630fa83916a5975f7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6a3588451067d588e5822e83ad761e8f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f75cce0486350d306469f7b75f17c8b7 = $(`<div id="html_f75cce0486350d306469f7b75f17c8b7" style="width: 100.0%; height: 100.0%;">Queen Elizabeth Theatre</div>`)[0];
+                popup_6a3588451067d588e5822e83ad761e8f.setContent(html_f75cce0486350d306469f7b75f17c8b7);
+            
+        
+
+        marker_5bb48474958c2e6a0694ac3d54b518ac.bindPopup(popup_6a3588451067d588e5822e83ad761e8f)
+        ;
+
+        
+    
+    
+                marker_5bb48474958c2e6a0694ac3d54b518ac.setIcon(icon_aa4446e8cad7c3c630fa83916a5975f7);
+            
+    
+            var marker_61843acc97e26ee4ba7ddb6a95deb554 = L.marker(
+                [42.3364411, -83.0488192],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_7f5f4719ce1e820137edfb032a8f152a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_294e34b7fc9b08ab31638ee3c0b021aa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_49b0f1e7c78efd3ca39345c747d778b6 = $(`<div id="html_49b0f1e7c78efd3ca39345c747d778b6" style="width: 100.0%; height: 100.0%;">Detroit Opera House</div>`)[0];
+                popup_294e34b7fc9b08ab31638ee3c0b021aa.setContent(html_49b0f1e7c78efd3ca39345c747d778b6);
+            
+        
+
+        marker_61843acc97e26ee4ba7ddb6a95deb554.bindPopup(popup_294e34b7fc9b08ab31638ee3c0b021aa)
+        ;
+
+        
+    
+    
+                marker_61843acc97e26ee4ba7ddb6a95deb554.setIcon(icon_7f5f4719ce1e820137edfb032a8f152a);
+            
+    
+            var marker_8a05145041f79230f0d1920ecbf65055 = L.marker(
+                [36.8520783, -76.2862456],
+                {
+}
+            ).addTo(map_af95010368fcf1b0318e3fa6d0d478bd);
+        
+    
+            var icon_96e4cb783d5067789e76616a180e5038 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "masks-theater",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8604f57d6d394d061e5369e4dfd2db0f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c1f93b1b8021ddfbe26797d55b6cec3 = $(`<div id="html_5c1f93b1b8021ddfbe26797d55b6cec3" style="width: 100.0%; height: 100.0%;">Chrysler Hall</div>`)[0];
+                popup_8604f57d6d394d061e5369e4dfd2db0f.setContent(html_5c1f93b1b8021ddfbe26797d55b6cec3);
+            
+        
+
+        marker_8a05145041f79230f0d1920ecbf65055.bindPopup(popup_8604f57d6d394d061e5369e4dfd2db0f)
+        ;
+
+        
+    
+    
+                marker_8a05145041f79230f0d1920ecbf65055.setIcon(icon_96e4cb783d5067789e76616a180e5038);
+            
+</script>
+</html>
